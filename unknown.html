@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Preorder</title>
+  <style>
+    /* Windows 11 Color */
+    :root {
+      --light-background-color: #f8f8f8; /* Light background color */
+      --dark-background-color: #1e1e1e; /* Dark background color */
+      --text-color: #333; /* Dark text color */
+      --container-background-color: #fff; /* White container background color */
+      --shadow-color: rgba(0, 0, 0, 0.1);
+      --hover-shadow-color: rgba(0, 0, 0, 0.2);
+      --button-hover-color: #005a8d;
+      --layering-color: rgba(0, 0, 0, 0.1);
+      --acrylic-color: rgba(255, 255, 255, 0.8);
+      --rounded-corner-8px: 8px;
+      --rounded-corner-4px: 4px;
+      --accent-color: #008272; /* Windows 11 accent color */
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: var(--dark-background-color); /* Change to dark background */
+      color: var(--container-background-color);
+    }
+
+    #preorder-container {
+      background-color: var(--container-background-color);
+      border-radius: var(--rounded-corner-8px);
+      box-shadow: 0 0 20px var(--shadow-color);
+      padding: 40px;
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    #preorder-container:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 40px var(--hover-shadow-color);
+    }
+
+    h1 {
+      color: var(--accent-color);
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: var(--text-color);
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+
+    #preorder-link {
+      display: inline-block;
+      background-color: var(--accent-color);
+      color: #fff;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: var(--rounded-corner-4px);
+      cursor: pointer;
+      text-decoration: none; /* Add text-decoration for link style */
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    #preorder-link:hover {
+      background-color: var(--button-hover-color);
+    }
+
+    /* Icon styles based on Fluent Design System guidelines */
+    .icon {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      fill: var(--accent-color);
+    }
+
+    /* Color Modes */
+    body.dark-mode {
+      background-color: var(--dark-background-color);
+      color: var(--container-background-color);
+    }
+
+    /* Accent Color */
+    #preorder-container.accent-mode {
+      background-color: var(--container-background-color);
+      color: var(--text-color);
+    }
+  </style>
+</head>
+
+<body>
+  <div data-bm="84" id="preorder-container" class="accent-mode">
+    <!-- Windows 11 Design Icon -->
+    <svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M2 20h16v2H2zM12 15l-6-6h4V2h4v7h4l-6 6z"></path>
+    </svg>
+
+    <h1>Game Preorder</h1>
+    <p>Embark on an extraordinary gaming experience. Preorder now to secure your copy!</p>
+    <a id="preorder-link" href="https://pay.sageimatic.studio/b/5kA9Bo6NpamLbzW4gk">Preorder Now</a>
+  </div>
+</body>
+
+</html>

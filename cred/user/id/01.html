@@ -3,15 +3,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #121212;
+            color: #fff;
         }
 
         .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin-top: 20px;
         }
 
         header, footer {
@@ -19,6 +25,12 @@
             color: #fff;
             text-align: center;
             padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        h1, h2 {
+            color: #3498db;
         }
 
         #socialCreditSection {
@@ -26,12 +38,17 @@
         }
 
         #socialCreditScore {
-            font-size: 24px;
+            font-size: 36px;
             font-weight: bold;
             padding: 20px;
             border: 2px solid #3498db;
             border-radius: 5px;
             text-align: center;
+            background-color: #1e1e1e;
+        }
+
+        footer p {
+            font-size: 14px;
         }
     </style>
     <title>Social Credit Score</title>
@@ -40,12 +57,12 @@
 
 <div class="container">
     <header>
-        <h1>Welcome, amongus123345567!</h1>
+        <h1 style="color:white;">Welcome, Sage!</h1>
     </header>
 
     <section id="socialCreditSection">
         <h2>Your Social Credit Score</h2>
-        <div id="socialCreditScore">1000</div>
+        <div id="socialCreditScore">763</div>
     </section>
 
     <footer>
@@ -53,10 +70,6 @@
     </footer>
 </div>
 
-<script>
-    // Bootleg script to set a demo social credit score of 1000
-    document.getElementById('socialCreditScore').textContent = '1000';
-</script>
 
 
 

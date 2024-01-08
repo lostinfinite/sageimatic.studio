@@ -1,0 +1,76 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin-top: 20px;
+        }
+
+        header, footer {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        h1, h2 {
+            color: #3498db;
+        }
+
+        #socialCreditSection {
+            margin-top: 20px;
+        }
+
+        #socialCreditScore {
+            font-size: 36px;
+            font-weight: bold;
+            padding: 20px;
+            border: 2px solid #3498db;
+            border-radius: 5px;
+            text-align: center;
+            background-color: #1e1e1e;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+    <title>Social Credit Score</title>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1 style="color:white;">Welcome, amongus123345567!</h1>
+    </header>
+
+    <section id="socialCreditSection">
+        <h2>Your Social Credit Score</h2>
+        <div id="socialCreditScore">763</div><h1 style="color: red;">FROZEN</h1>
+    </section>
+
+    <p>No Social's Linked</p><footer>
+        <p>© 2024 Social Credit System</p>
+    </footer>
+</div>
+
+
+
+
+</body></html>
